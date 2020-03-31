@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{2FA8A768-218C-4181-92B1-C9FE80F066F3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Project331720</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\band01\Downloads\opencv\opencv\build\install\include;C:\Users\band01\Downloads\opencv\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\band01\Downloads\opencv\opencv\build\install\x64\vc16\lib;C:\Users\band01\Downloads\opencv\opencv\build\install\x64\vc16\bin;C:\Users\band01\Downloads\opencv\opencv\build\x64\vc15\bin;C:\Users\band01\Downloads\opencv\opencv\build\x64\vc15\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world420d.lib;opencv_aruco420.lib;opencv_core420d.lib;opencv_highgui420d.lib;opencv_video420d.lib;opencv_calib3d420d.lib;opencv_features2d420.lib;opencv_imgcodecs420d.lib;opencv_imgproc420d.lib;opencv_xobjdetect420.lib;opencv_videoio420d.lib;opencv_dnn_objdetect420.lib;opencv_text420.lib;opencv_dnn420d.lib;opencv_features2d420d.lib;opencv_flann420d.lib;opencv_gapi420d.lib;opencv_ml420d.lib;opencv_objdetect420d.lib;opencv_photo420d.lib;opencv_stitching420d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\band01\Downloads\opencv\opencv\build\include;C:\Users\band01\Downloads\opencv\opencv\build\x64\vc15\lib;C:\Users\band01\Downloads\opencv\opencv\build\x64\vc15\bin;C:\Users\band01\Downloads\opencv\opencv\build\install\x64\vc16\lib;C:\Users\band01\Downloads\opencv\opencv\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\band01\Downloads\opencv\opencv\build\lib;C:\Users\band01\Downloads\opencv\opencv\build\install\x64\vc16\lib;C:\Users\band01\Downloads\opencv\opencv\build\install\x64\vc16\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_aruco420.lib;opencv_core420d.lib;opencv_highgui420d.lib;opencv_video420d.lib;opencv_calib3d420d.lib;opencv_features2d420.lib;opencv_imgcodecs420d.lib;opencv_imgproc420d.lib;opencv_xobjdetect420.lib;opencv_videoio420d.lib;opencv_dnn_objdetect420.lib;opencv_text420.lib;opencv_dnn420d.lib;opencv_features2d420d.lib;opencv_flann420d.lib;opencv_gapi420d.lib;opencv_ml420d.lib;opencv_objdetect420d.lib;opencv_photo420d.lib;opencv_stitching420d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\band01\Downloads\opencv\opencv\build\install\x64\vc16\bin;C:\Users\band01\Downloads\opencv\opencv\build\install\x64\vc16\lib;C:\Users\band01\Downloads\opencv\opencv\build\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/D _CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\band01\Downloads\opencv\opencv\build\install\x64\vc16\lib;C:\Users\band01\Downloads\opencv\opencv\build\install\include;C:\Users\band01\Downloads\opencv\opencv\build\install\x64\vc16\bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_aruco420.lib;opencv_core420.lib;opencv_highgui420.lib;opencv_video420.lib;opencv_calib3d420.lib;opencv_features2d420.lib;opencv_imgcodecs420.lib;opencv_imgproc420.lib;opencv_xobjdetect420.lib;opencv_videoio420.lib;opencv_dnn_objdetect420.lib;opencv_text420.lib;opencv_dnn420.lib;opencv_flann420.lib;opencv_gapi420.lib;opencv_ml420.lib;opencv_objdetect420.lib;opencv_photo420.lib;opencv_stitching420.lib;opencv_xfeatures2d420.lib;opencv_viz420.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\camFusion_Student.cpp" />
+    <ClCompile Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\FinalProject_Camera.cpp" />
+    <ClCompile Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\lidarData.cpp" />
+    <ClCompile Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\matching2D_Student.cpp" />
+    <ClCompile Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\objectDetection2D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\dat\yolo\coco.names" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\dat\yolo\yolov3-tiny.cfg" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\dat\yolo\yolov3-tiny.weights" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\dat\yolo\yolov3.cfg" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\get_yolov3_weights" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000000.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000001.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000002.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000003.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000004.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000005.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000006.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000007.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000008.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000009.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000010.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000011.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000012.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000013.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000014.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000015.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000016.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000017.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000018.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000019.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000020.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000021.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000022.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000023.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000024.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000025.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000026.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000027.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000028.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000029.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000030.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000031.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000032.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000033.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000034.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000035.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000036.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000037.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000038.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000039.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000040.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000041.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000042.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000043.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000044.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000045.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000046.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000047.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000048.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000049.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000050.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000051.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000052.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000053.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000054.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000055.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000056.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000057.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000058.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000059.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000060.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000061.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000062.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000063.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000064.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000065.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000066.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000067.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000068.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000069.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000070.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000071.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000072.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000073.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000074.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000075.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000076.bin" />
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000077.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\camFusion.hpp" />
+    <ClInclude Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\dataStructures.h" />
+    <ClInclude Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\lidarData.hpp" />
+    <ClInclude Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\matching2D.hpp" />
+    <ClInclude Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\objectDetection2D.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\course_code_structure.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000000.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000001.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000002.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000003.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000004.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000005.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000006.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000007.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000008.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000009.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000010.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000011.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000012.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000013.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000014.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000015.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000016.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000017.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000018.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000019.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000020.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000021.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000022.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000023.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000024.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000025.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000026.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000027.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000028.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000029.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000030.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000031.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000032.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000033.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000034.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000035.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000036.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000037.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000038.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000039.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000040.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000041.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000042.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000043.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000044.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000045.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000046.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000047.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000048.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000049.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000050.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000051.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000052.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000053.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000054.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000055.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000056.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000057.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000058.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000059.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000060.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000061.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000062.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000063.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000064.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000065.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000066.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000067.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000068.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000069.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000070.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000071.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000072.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000073.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000074.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000075.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000076.png" />
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000077.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

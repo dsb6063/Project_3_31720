@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\images">
+      <UniqueIdentifier>{b9f5fc72-65be-41da-b741-149943a95c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\dat">
+      <UniqueIdentifier>{fcd94ca7-35f7-4d8e-8d03-1fccb3ca970c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\dat\yolo">
+      <UniqueIdentifier>{2ee0e430-0444-498a-aa66-64a48a1c84aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\KITTI">
+      <UniqueIdentifier>{15602dcc-dd07-4cf5-be1e-015bddd14f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\KITTI\2011_09_26">
+      <UniqueIdentifier>{3eb8f43d-cdd5-4141-97f4-793a60a79ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\KITTI\2011_09_26\image_02">
+      <UniqueIdentifier>{5b5f3f3c-27ce-4f2f-8594-9abb75f9a062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\KITTI\2011_09_26\image_02\data">
+      <UniqueIdentifier>{dc02a148-c151-4d11-bdbf-66f9c732dfc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\KITTI\2011_09_26\velodyne_points">
+      <UniqueIdentifier>{33bab17c-88ff-457b-abd8-06fd63980936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\images\KITTI\2011_09_26\velodyne_points\data">
+      <UniqueIdentifier>{e9027a7a-f6e8-4f97-a604-1fa19cf3255d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\FinalProject_Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\camFusion_Student.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\lidarData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\objectDetection2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\matching2D_Student.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\get_yolov3_weights">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\dat\yolo\coco.names">
+      <Filter>Resource Files\dat\yolo</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\dat\yolo\yolov3.cfg">
+      <Filter>Resource Files\dat\yolo</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\dat\yolo\yolov3-tiny.cfg">
+      <Filter>Resource Files\dat\yolo</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\dat\yolo\yolov3-tiny.weights">
+      <Filter>Resource Files\dat\yolo</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000000.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000001.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000002.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000003.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000004.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000005.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000006.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000007.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000008.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000009.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000010.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000011.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000012.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000013.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000014.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000015.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000016.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000017.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000018.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000019.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000020.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000021.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000022.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000023.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000024.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000025.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000026.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000027.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000028.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000029.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000030.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000031.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000032.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000033.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000034.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000035.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000036.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000037.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000038.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000039.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000040.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000041.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000042.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000043.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000044.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000045.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000046.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000047.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000048.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000049.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000050.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000051.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000052.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000053.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000054.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000055.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000056.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000057.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000058.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000059.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000060.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000061.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000062.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000063.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000064.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000065.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000066.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000067.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000068.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000069.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000070.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000071.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000072.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000073.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000074.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000075.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000076.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+    <None Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\velodyne_points\data\0000000077.bin">
+      <Filter>Resource Files\images\KITTI\2011_09_26\velodyne_points\data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\camFusion.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\dataStructures.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\lidarData.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\objectDetection2D.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Udacity-Sensor-Fusion-3D-Object-Tracking\src\matching2D.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\course_code_structure.png">
+      <Filter>Resource Files\images</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000000.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000001.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000002.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000003.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000004.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000005.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000006.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000007.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000008.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000009.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000010.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000011.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000012.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000013.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000014.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000015.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000016.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000017.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000018.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000019.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000020.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000021.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000022.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000023.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000024.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000025.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000026.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000027.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000028.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000029.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000030.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000031.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000032.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000033.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000034.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000035.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000036.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000037.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000038.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000039.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000040.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000041.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000042.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000043.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000044.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000045.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000046.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000047.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000048.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000049.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000050.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000051.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000052.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000053.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000054.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000055.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000056.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000057.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000058.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000059.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000060.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000061.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000062.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000063.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000064.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000065.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000066.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000067.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000068.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000069.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000070.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000071.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000072.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000073.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000074.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000075.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000076.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+    <Image Include="Udacity-Sensor-Fusion-3D-Object-Tracking\images\KITTI\2011_09_26\image_02\data\0000000077.png">
+      <Filter>Resource Files\images\KITTI\2011_09_26\image_02\data</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
